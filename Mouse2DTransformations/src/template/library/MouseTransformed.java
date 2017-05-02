@@ -22,7 +22,7 @@ public class MouseTransformed {
 		parent.registerMethod("post", this);
 	}
 	  
-	private void post() {
+	public void post() {
 		this.resetMouse();
 	}
 	
